@@ -1,0 +1,25 @@
+{
+  "name": "summaraizer",
+  "version": "1.0.0",
+  "description": "WhatsApp companion app that summarizes daily chats and voice notes using Gemini File API, automatic chunking, and model fallback.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "list-chats": "node list_chats.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "whatsapp",
+    "gemini",
+    "summarizer",
+    "voice-notes"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^17.2.1",
+    "node-cron": "^3.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.32.0"
+  }
+}
